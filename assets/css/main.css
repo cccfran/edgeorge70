@@ -4024,6 +4024,7 @@ tr.no-bottom-border th {
 .table a {
 	text-decoration: underline;
 	font-weight: 500;
+	color: #5bc0de;
 }
 
 #default-tab ul.nav-tabs {
