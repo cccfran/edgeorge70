@@ -4002,13 +4002,29 @@ figure {
 	padding: 10px 20px;
 	color: #444;
 	text-align: center;
-	font-size: 14px
+	font-size: 14px;
 }
 
 .table-striped>tbody>tr:nth-of-type(2n+1) {
 	background-color: #e3e3e3
 }
 
+tr.no-border td {
+  border: none !important
+}
+
+tr.no-top-border th {
+  border: none !important
+}
+
+tr.no-bottom-border th {
+  border-bottom: none !important
+}
+
+.table a {
+	text-decoration: underline;
+	font-weight: 500;
+}
 
 #default-tab ul.nav-tabs {
 	border-bottom: none;
