@@ -4494,3 +4494,42 @@ img {
 	margin: 0 0 20px 0
 }
 
+#schedule .table a {
+	color: #4da5e2;
+	-moz-transition: .2s ease-in;
+	-o-transition: .2s ease-in;
+	-webkit-transition: .2s ease-in;
+	-ms-transition: .2s ease-in;
+	transition: .2s ease-in;
+	letter-spacing: 0px;
+	outline: 0 !important
+}
+
+#schedule .table a:hover,
+a:active,
+a:focus {
+	color: #D14E63;
+	text-decoration: underline;
+}
+
+#schedule .btn {
+	color: white;
+	background-color: #4da5e2;
+}
+
+#schedule .btn:hover,
+.btn:active,
+.btn:focus {
+	color: #4da5e2;
+	border: 2px solid #4da5e2;
+	background-color: white;
+}
+
+#schedule .panel-title a {
+	color:  white;
+}
+
+.panel-title .panel-title-content a {
+	font-weight: normal;
+	padding-left: 20px;
+}
