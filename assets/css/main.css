@@ -380,7 +380,7 @@ a:focus {
 
 .hero-content-v2 h3 strong {
 	display: block;
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: 400;
 	line-height: 62px;
 	margin-bottom: 25px
@@ -4262,7 +4262,7 @@ ul.nav-tabs li a {
 		padding: 30px 0
 	}
 	.page-header-title .heading-title {
-		font-size: 24px
+		font-size: 36px
 	}
 	.navbar-light .navbar-toggler {
 		margin: 24px;
@@ -4367,7 +4367,7 @@ ul.nav-tabs li a {
 		float: left
 	}
 	.page-header-title .heading-title {
-		font-size: 16px
+		font-size: 36px
 	}
 	.title-head {
 		font-size: 20px
@@ -4527,9 +4527,4 @@ a:focus {
 
 #schedule .panel-title a {
 	color:  white;
-}
-
-.panel-title .panel-title-content a {
-	font-weight: normal;
-	padding-left: 20px;
 }
