@@ -99,8 +99,8 @@
     "first": "Larry",
     "ins": "Carnegie Mellon University",
     "time": "",
-    "title": "Optimal Transport for Particle Physics",
-    "abstract": ""
+    "title": "Optimal Transport With Applications to Background Modeling",
+    "abstract": "I will give an introduction to the theory of optimal transport which is a method for constructing mappings between distributions.  Optimal transport has become a popular tool in statistics and machine learning and has many applications. After introducing the basic ideas I will discuss an application to estimating the background distribution for testing for di-Higgs events. <br><br>This is joint work with: Tudor Manole, Patrick Bryant, John Alison and Mikael Kuusela."
   },
   {
     "id": 14,
@@ -226,8 +226,8 @@
     "first": "Merlise",
     "ins": "Duke University",
     "time": "",
-    "title": "",
-    "abstract": ""
+    "title": "Bridging Spike and Slab Priors and Generalized g-priors",
+    "abstract": "The introduction of Stochastic Search Variable Selection samplers by George and McCulloch in 1993 and 1997 revolutionized the field of Bayesian model selection facilitating methods to explore model spaces with hundreds to millions of variables.  Generalizations of g-priors remain a popular choice from both computational and theoretical  perspectives, however, can exhibit problematic behavior  as shown in Som, Hans and MacEachern, who propose blocking covariates and applying mixtures of g-priors within each block.   When blocks involve only a single predictor, this simplifies to a version of the popular spike and slab priors with a point mass at zero.  However an open problem is how to select blocks in general and how to specify priors within blocks to satisfy model selection desiderata.   We provide  a solution based on data adaptive blocking that allows us to bridge generalized g-priors and independent spike and slab priors. "
   },
   {
     "id": 31,
@@ -235,8 +235,8 @@
     "first": "Jun",
     "ins": "Harvard University",
     "time": "",
-    "title": "Bootstrap, hierarchical Bayes, and neural networks",
-    "abstract": ""
+    "title": "Bootstrap, hierarchical Bayes, and Neural Networks -- a generative multi-purpose sampler",
+    "abstract": "Many statistical estimation problems can be formulated as solving for an M-estimator, and their uncertainties can be quantified by multiple copies of weighted M-estimators, such as in bootstrap methods. The Bayesian bootstrap differs from the classical bootstrap by employing different weight distributions (Dirichlet versus multinomial). Incidentally, the problem of tuning parameter selection via cross-validation can also be formulated as putting weights onto samples and obtaining different solutions under different sets of weights and different specifications of the tuning parameters. In this talk, we discuss ways of setting up flexible neural networks (a) to receive inputs as different weights and to give out outputs that we desire so as to achieve either uncertainty quantification or tuning parameter selection, and (b) to form nonparametric prior to enable nonparametric Bayes analysis. This is based on the joint work with Minsuk Shin, Shijie Wang,  Zhirui Hu, and Tracy Ke. "
   },
   {
     "id": 32,
