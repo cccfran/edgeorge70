@@ -171,7 +171,7 @@ canonical: https://heliumjk.github.io
                           {% if sp.title == "Welcome" or sp.title == "Lunch" or sp.title == "Break" or sp.title == "Breakfast" %}
                           <tr>
                             <td>{{ sp.time }}
-                            <td>{{ sp.first }} &nbsp;&nbsp; {{ sp.second }}</td>
+                            <td><span class="text-primary"><b>{{ sp.first }} &nbsp;&nbsp; {{ sp.second }}</b></span></td>
                             <td>{{ sp.title }}</td>
                           </tr>
                           {% else %}
