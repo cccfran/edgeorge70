@@ -67,8 +67,8 @@
     "first": "Dean",
     "ins": "Amazon",
     "time": "",
-    "title": "Macau: A betting approach to decision making",
-    "abstract": ""
+    "title": "Using Low Macau Forecasts to Make Decisions",
+    "abstract": "A way to show that a forecast is biased is to place bets on whether the residuals are positive or negative. The macau of a forecast is how much it stands to lose when faced with such bets. A low macau forecast is one which never loses very much in these bets. This talk will introduce this concept and show how to create such low macau forecasts. The advantage of low macau forecasts are that they can be trusted in decision making. If you forecast how much you would make when taking one of several actions, you want your forecasts for each arm to be unbiased. If you pick the arm with the highest forecast, and you are using a low macau forecasting procedure, then you will end up making good decisions. In particular, the traditional on-line regret is often bounded by the macau. This allows us to convert many decision problems into forecasting problems."
   },
   {
     "id": 10,
@@ -154,7 +154,7 @@
     "first": "Nancy",
     "ins": "University of Toronto",
     "time": "",
-    "title": "Data-dependent priors",
+    "title": "Data-Dependent Priors",
     "abstract": ""
   },
   {
@@ -186,7 +186,7 @@
     "first": "Richard",
     "ins": "University of Cambridge",
     "time": "",
-    "title": "Optimal subgroup selection",
+    "title": "Optimal Subgroup Selection",
     "abstract": "In clinical trials and other applications, we often see regions of the feature space that appear to exhibit interesting behaviour, but it is unclear whether these observed phenomena are reflected at the population level. Focusing on a regression setting, we consider the subgroup selection challenge of identifying a region of the feature space on which the regression function exceeds a pre-determined threshold. We formulate the problem as one of constrained optimisation, where we seek a low-complexity, data-dependent selection set on which, with a guaranteed probability, the regression function is uniformly at least as large as the threshold; subject to this constraint, we would like the region to contain as much mass under the marginal feature distribution as possible. This leads to a natural notion of regret, and our main contribution is to determine the minimax optimal rate for this regret in both the sample size and the Type I error probability. The rate involves a delicate interplay between parameters that control the smoothness of the regression function, as well as exponents that quantify the extent to which the optimal selection set at the population level can be approximated by families of well-behaved subsets. Finally, we expand the scope of our previous results by illustrating how they may be generalised to a treatment and control setting, where interest lies in the heterogeneous treatment effect."
   },
   {
@@ -195,7 +195,7 @@
     "first": "Alicia",
     "ins": "Iowa State University",
     "time": "",
-    "title": "On the validity of forensic pattern comparison disciplines",
+    "title": "On the Validity of Forensic Pattern Comparison Disciplines",
     "abstract": "Evidence from a crime scene including fingerprints and firearm markings on bullets is evaluated by examiners by comparing their image to one or more reference images. Typically, the examination is purely visual and results in a categorical conclusion such as “the print was made by the suspect’s finger”. How valid are these conclusions and the methods that lead to them?<br><br>For pattern comparison disciplines, black box studies are considered the ``gold standard’’ for assessing this validity. In this type of study, participants are presented with a series of test kits and are asked to reach a conclusion as they would in real case work. Black box studies have been conducted in multiple forensic disciplines in the last few years, and published results suggest that examiners hardly ever make an error. <br><br>Not so fast!  We argue that none of the forensic black box studies that have been conducted in the past decade permit estimation of error rates, either for the discipline or for individual examiners.  Most of the studies violate basic experimental design rules and lack statistical justification.  Further, in several cases, estimated error rates are unrealistically low, yet are used in courts to shore up testimony that is often based on nothing other than someone’s opinion.<br><br>We propose some minimal statistical criteria for black box studies and describe some of the data that need to be available to plan and implement such studies."
   },
   {
@@ -227,7 +227,7 @@
     "first": "Jun",
     "ins": "Harvard University",
     "time": "",
-    "title": "Bootstrap, hierarchical Bayes, and Neural Networks -- a generative multi-purpose sampler",
+    "title": "Bootstrap, Hierarchical Bayes, and Neural Networks<br> -- a Generative Multi-purpose Sampler",
     "abstract": "Many statistical estimation problems can be formulated as solving for an M-estimator, and their uncertainties can be quantified by multiple copies of weighted M-estimators, such as in bootstrap methods. The Bayesian bootstrap differs from the classical bootstrap by employing different weight distributions (Dirichlet versus multinomial). Incidentally, the problem of tuning parameter selection via cross-validation can also be formulated as putting weights onto samples and obtaining different solutions under different sets of weights and different specifications of the tuning parameters. In this talk, we discuss ways of setting up flexible neural networks (a) to receive inputs as different weights and to give out outputs that we desire so as to achieve either uncertainty quantification or tuning parameter selection, and (b) to form nonparametric prior to enable nonparametric Bayes analysis. This is based on the joint work with Minsuk Shin, Shijie Wang,  Zhirui Hu, and Tracy Ke. "
   },
   {
