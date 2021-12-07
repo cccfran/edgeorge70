@@ -221,11 +221,58 @@ canonical: https://heliumjk.github.io
             <div class="panel-group">
               <div class="panel">
                 <div class="panel-heading">
-                  <a class="panel-title" data-toggle="collapse" href="#panel2"> 5:00 - 7:30PM <span style="font-weight: normal;padding-left: 20px;">RECEPTION & POSTER SESSION @ HUNTSMAN HALL 8TH FLOOR</a>
+                  <a class="panel-title" data-toggle="collapse" href="#panel2"> 5:00 - 8:30PM <span style="font-weight: normal;padding-left: 20px;">RECEPTION & POSTER SESSION @ HUNTSMAN HALL 8TH FLOOR</a>
                 </div>
                 <div id="panel2" class="panel-collapse collapse">
                   <div class="panel-body text-gray">
                     <p class="lead text-center text-info"><b><a target="_blank" href="https://goo.gl/maps/wgrkxK8WJpB2" class="address">  Huntsman Hall 8th Floor <br> 3730 Walnut St, Philadelphia</a></b></p>
+                    <div class="table-responsive mtb">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Title<br>(Click to Abstract)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% assign speakers = site.data.poster | sort: 'Last' %}
+                          {% for sp in speakers %}
+                          <tr>
+                            <td><span class="text-primary"><b>{{ sp.First }} {{ sp.Last }}</b></span><br>{{ sp.Organization }}</td>
+                            <td><a data-toggle="modal" data-target="#{{sp.First}}"><b>{{ sp.Title }}</b></a>
+                              <!-- Modal -->
+                              <div class="modal fade" id="{{sp.First}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalLabel">{{ sp.Title }}</h5>
+                                      <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button> -->
+                                    </div>
+                                    <div class="modal-body">
+                                      <br>
+                                      <p class="lead"><span class="bg-primary">{{ sp.First }} {{ sp.Last }}</span></p>
+                                      <p>{{ sp.Organization }}</p>
+                                      <br>
+                                      <p>
+                                      {{ sp.Abstract }}
+                                      </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- End modal -->
+                            </td>
+                          </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                    <!-- end table -->
                   </div>
                 </div>
               </div>

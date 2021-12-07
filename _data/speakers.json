@@ -135,14 +135,6 @@
     "abstract": "Classical design of experiments does not contemplate a role for the likelihood. On the other hand, in many modern settings, including Tech and social media platforms, we want to experiment with systems that have been modeled extensively, and ignoring insights from such models at design stage seems an increasingly unreasonable tenet. In this talk, we will introduce an experimental design strategy that leverages statistical models to restrict the space of randomizations at design stage, while retaining the benefits and guarantees of classical experimental design strategies. In particular, we wish for certain finite-sample properties of the estimates to hold even if the model catastrophically fails, while we would like to gain efficiency if certain aspects of the model are correct. We will contrast design-based, model-based and model-assisted approaches to experimental design from a decision theoretic perspective. We will then illustrate this model-assisted approach to design of experiments in the context of the estimation of causal effects, when interference can be attributed to a network among the units of analysis, within the potential outcomes framework."
   },
   {
-    "id": 18,
-    "time": "5:00-7:30pm",
-    "first": "",
-    "last": "",
-    "ins": "",
-    "title": "Poster Session/Reception"
-  },
-  {
     "id": 20,
     "first": "",
     "last": "",
