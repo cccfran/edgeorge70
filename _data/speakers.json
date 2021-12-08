@@ -155,7 +155,7 @@
     "ins": "University of Toronto",
     "time": "",
     "title": "Data-Dependent Priors",
-    "abstract": ""
+    "abstract": "Some years ago at an OBayes meeting I talked about a version of matching priors that depends on the data. Ed pointed out that empirical Bayes methods use data-dependent priors in a more direct manner, and wondered about any connections. In this talk I’ll consider the similarities and differences in the approaches, informed by recent discussions at the “BFF” set of workshops and recent results of Rousseau and others in assessing the coverage of empirical Bayes posteriors."
   },
   {
     "id": 23,
