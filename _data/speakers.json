@@ -67,7 +67,7 @@
     "first": "Dean",
     "ins": "Amazon",
     "time": "",
-    "title": "Using Low Macau Forecasts to Make Decisions",
+    "title": "Calibration, Falsifiability and Macau",
     "abstract": "A way to show that a forecast is biased is to place bets on whether the residuals are positive or negative. The macau of a forecast is how much it stands to lose when faced with such bets. A low macau forecast is one which never loses very much in these bets. This talk will introduce this concept and show how to create such low macau forecasts. The advantage of low macau forecasts are that they can be trusted in decision making. If you forecast how much you would make when taking one of several actions, you want your forecasts for each arm to be unbiased. If you pick the arm with the highest forecast, and you are using a low macau forecasting procedure, then you will end up making good decisions. In particular, the traditional on-line regret is often bounded by the macau. This allows us to convert many decision problems into forecasting problems."
   },
   {
@@ -163,7 +163,7 @@
     "first": "Bill",
     "ins": "Rutgers University",
     "time": "",
-    "title": "On Minimax Shrinkage Estimation with Variable selectione Selection",
+    "title": "On Minimax Shrinkage Estimation with Variable Selection",
     "abstract": "We study minimax estimators of the mean vector of a spherically symmetric distribution that also perform variable selection by estimating certain components as 0. The basic class of estimators developed is closely related to, and generalizes, classes considered by Zhou and Hwang [11] and Maruyama [8] in the Gaussian setting. The class  f distributions studied includes scale mixtures of normals (including Normal and Student-t) as well as the general class of spherically symmetric distributions with a residual vector. Certain subclasses of these estimators based on truncated order statistics are shown to be particularly effective when some information on the sparsity is known. Joint work with Stavros Zinonos, Rutgers University"
   },
   {
